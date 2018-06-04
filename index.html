@@ -111,7 +111,7 @@
 
 
     $('#btnEnviar').click(function () {
-        var url = " https://api.whatsapp.com/send?phone=" + $('#numero').val().replace(/\D/g, '') + "&text=" + $('#mensagem').val();
+        var url = "https://api.whatsapp.com/send?phone=550"+$('#numero').val().replace(/\D/g, '')+ "&text="+$('#mensagem').val();
         window.open(url, '_blank');
     });
 </script>
